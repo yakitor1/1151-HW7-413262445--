@@ -24,13 +24,13 @@ public class GameDirector : MonoBehaviour
 
     public void getApple()
     {
-        this.point += 100;
+        this.point += 100; //åŠ åˆ†
     }
 
     public void getBomb()
     {
-        this.point /= 2;
-        this.time -= 2.0f;
+        this.point /= 2; 
+        this.time -= 2.0f; //ç•¶åƒåˆ°ç‚¸å½ˆæ™‚é–“æ‰£å…©ç§’
     }
 
     // Update is called once per frame
@@ -43,12 +43,12 @@ public class GameDirector : MonoBehaviour
             this.generator.GetComponent<ItemGenerator>().SetParameter(10000.0f, 0, 0);
             if (this.point >= 1500)
             {
-                // ¤À¼Æ¤j©óµ¥©ó1500Åã¥Ü Win
+                // åˆ†æ•¸å¤§æ–¼ç­‰æ–¼1500é¡¯ç¤º Win
                 this.winText.SetActive(true);
             }
             else
             {
-                // ¤À¼Æ¤p©ó1500Åã¥Ü Lose
+                // åˆ†æ•¸å°æ–¼1500é¡¯ç¤º Lose
                 this.loseText.SetActive(true);
             }
         }

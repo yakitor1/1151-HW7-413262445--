@@ -5,9 +5,16 @@
 
 參數設置:
 
-    物件掉落速度 -> ratio = -0.004f
+    物件掉落速度 -> ratio = -0.004f 
     
-    物件產生速度 -> 
+    物件產生速度 -> span = 1.0f
+
+    炸彈生成比率 -> rate = 4   (每十個掉落物會有4個炸彈)
+
+    當小於45s時每隔一段時間物件掉落速度會-0.0005f
+
+    拾取蘋果+100 points
+    拾取炸彈 point/2 並且 time -2s
     
 <img width="1917" height="1018" alt="image" src="https://github.com/user-attachments/assets/2d92cdd3-32e3-4d93-90f5-4ecff55a0829" />
 

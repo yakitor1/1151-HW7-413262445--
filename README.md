@@ -16,5 +16,7 @@
     拾取蘋果+100 points
     拾取炸彈 point/2 並且 time -2s
     
+Youtube連結 : https://youtu.be/g4suOdkykx0
+    
 <img width="1917" height="1018" alt="image" src="https://github.com/user-attachments/assets/2d92cdd3-32e3-4d93-90f5-4ecff55a0829" />
 
